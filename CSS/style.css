@@ -1,0 +1,116 @@
+.frame1 {
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  width: 500px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+  box-shadow: 1px 2px 10px 0px rgba(0,0,0,0.3);
+  background: #CA7C4E; 
+  color: #786450;;
+}
+
+.frame2 {
+  position: absolute;
+  top: 50px;
+  left: 40px;
+	height: 299px;
+	width: 399px;
+	background: #fff;
+	border-radius: 3px;
+	overflow: hidden;
+	box-shadow: 10px 10px 15px 0 rgba(0,0,0,0.3);
+}
+
+.profile {
+	float: left;
+	width: 200px;
+	height: 320px;
+	text-align: center;}
+	
+.image {
+		position: relative;
+		width: 70px;
+		height: 70px;
+		margin: 38px auto 0 auto;
+	}
+
+	img {
+		display: block;
+		border-radius: 50%;
+		background: #F5E8DF;
+	}
+	
+	
+	.name {
+		font-size: 15px;
+		font-weight: 600;
+		margin-top: 20px;
+	}
+	
+	.title {
+		font-size: 11px;
+		line-height: 15px;
+	}
+	
+	.actions {
+		margin-top: 33px;
+	}
+		
+	 .btn {
+			display: block;
+			width: 120px;
+			height: 30px;
+			margin: 0 auto 10px auto;
+			background: none;
+			border-radius: 15px;
+			font-size: 12px;
+			font-weight: 600;
+			box-sizing: border-box;
+			transition: all .3s ease-in-out;	
+		}
+	.btn:hover {
+		background: #CA7C4E;
+		color: #fff;
+	}
+	
+
+
+.stats {
+	float: left;
+}
+	
+.box {
+		box-sizing: border-box;
+		width: 199px;
+		height: 99px;
+		background: #F5E8DF;
+		text-align: center;
+		padding-top: 26px;
+		}
+		
+.box:hover {
+			background: #E1CFC2;
+			cursor: pointer;
+		}
+		
+.box:nth-child(2) {
+			margin: 1px 0;
+		}
+		
+	
+	span {
+		display: block;
+	}
+	
+	.value {
+		font-size: 18px;
+		
+	}
+	
+	.activity {
+		font-size: 11px;
+	}
+	
